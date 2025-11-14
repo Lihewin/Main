@@ -1,17 +1,17 @@
 {
-    "version": "20.1.8",
+    "version": "21.1.5",
     "description": "Collection of modular and reusable compiler and toolchain technologies.",
     "homepage": "https://www.llvm.org",
     "license": "NCSA",
     "notes": "Since upstream does NOT provide pre-compiled binary of arm64 for every release, LLVM arm64 is now a separate manifest: 'llvm-arm64'.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-win64.exe#/dl.7z",
-            "hash": "3197846a2b19063687dd56e93e34cd941e3548d907f23a6131571321bdf9fe7b"
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.5/LLVM-21.1.5-win64.exe#/dl.7z",
+            "hash": "aa106956d3fa7e213806e12b58b621c539ca8faf767db9a544ce1894e98e1060"
         },
         "32bit": {
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-win32.exe#/dl.7z",
-            "hash": "430b5c04252c9ff195a8993ae1c2ff2b73a14f42067f44cfe8f6db73232313cd"
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.5/LLVM-21.1.5-win32.exe#/dl.7z",
+            "hash": "75b0411556ea2d2568e1116051c00b4b4f12012abaedc08e92420a1076349cf8"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe\" -Recurse",

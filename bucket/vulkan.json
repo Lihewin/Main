@@ -1,5 +1,5 @@
 {
-    "version": "1.4.321.0",
+    "version": "1.4.328.1",
     "description": "SDK for new generation graphics and compute API",
     "homepage": "https://www.vulkan.org",
     "license": {
@@ -40,12 +40,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://sdk.lunarg.com/sdk/download/1.4.321.0/windows/vulkansdk-windows-X64-1.4.321.0.exe",
-            "hash": "14ebc56ef981e03a292adadd2559fbbfcd0289ec157bfd0f0d5f9fdcb40042a9"
+            "url": "https://sdk.lunarg.com/sdk/download/1.4.328.1/windows/vulkansdk-windows-X64-1.4.328.1.exe",
+            "hash": "a8675df6d538079c2a719a9373994948091db785b48f142e024254e76348d16c"
         },
         "arm64": {
-            "url": "https://sdk.lunarg.com/sdk/download/1.4.321.0/warm/vulkansdk-windows-ARM64-1.4.321.0.exe",
-            "hash": "56a47cd99d94e86ea764bb37583248913db3615a5c04f6d81f6cc8f4d31d2dc8"
+            "url": "https://sdk.lunarg.com/sdk/download/1.4.328.1/warm/vulkansdk-windows-ARM64-1.4.328.1.exe",
+            "hash": "23201a43c8848c540f3cb19aa56175ce3bab77c749f82444ca96ef4664cb2441"
         }
     },
     "env_add_path": [

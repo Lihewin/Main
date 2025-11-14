@@ -1,5 +1,5 @@
 {
-    "version": "7.12",
+    "version": "7.13",
     "description": "Decompress RAR files.",
     "homepage": "https://www.rarlab.com/",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.rarlab.com/rar/unrarw64.exe#/dl.zip",
-            "hash": "c2977e235b73ca32d977bbe2628b4397193f860ba32feec50fb020c772379556"
+            "hash": "8381ffcc489f2351a7e892415c93e77e12d3b54230db7bc1eb8e5f46bf79e936"
         }
     },
     "bin": "UnRAR.exe",
